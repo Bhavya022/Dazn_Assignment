@@ -13,7 +13,7 @@ app.use('/api', movieRoutes);
 const PORT = process.env.PORT || 3000;
 
 // Connect to MongoDB and start server
-mongoose.connect('mongodb://localhost:27017/moviedb')
+mongoose.connect('mongodb+srv://bhavya:bhavya@cluster0.kin5ecd.mongodb.net/moviedb?retryWrites=true&w=majority')
     .then(() => {
         console.log('Connected to MongoDB');
         // Start the server
