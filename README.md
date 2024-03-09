@@ -10,14 +10,14 @@ Welcome to the Movie Lobby API! This API allows users to manage a collection of 
 git clone https://github.com/yourusername/movie-lobby-api.git
 
 markdown
-Copy code
+
 
 2. **Install Dependencies**:
 cd movie-lobby-api
 npm install
 
 markdown
-Copy code
+
 
 3. **Set Up MongoDB**:
 - Make sure you have MongoDB installed and running locally, or use a MongoDB service like MongoDB Atlas.
@@ -27,7 +27,7 @@ Copy code
 npm start
 
 less
-Copy code
+
 
 ## API Documentation
 
@@ -49,7 +49,6 @@ Method: POST
 Description: Adds a new movie to the lobby.
 Sample Request Body:
 json
-Copy code
 {
   "title": "Interstellar",
   "genre": "Sci-Fi",
@@ -62,7 +61,6 @@ Method: PUT
 Description: Updates an existing movie's information.
 Sample Request Body:
 json
-Copy code
 {
   "title": "Updated Title",
   "genre": "Updated Genre",
@@ -82,5 +80,4 @@ Test that the API endpoints function correctly when tested together.
 Test the API responses for expected results when interacting with the database.
 Running Tests
 bash
-Copy code
 npm test
